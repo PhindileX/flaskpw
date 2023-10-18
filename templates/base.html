@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi doll</title>
+    <link rel="icon" href="../static/img/tflag.png" type="image/x-icon">
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <form action="/" method="post">
+        <nav>
+            <input type="submit" name = "submit_results"  class="nav_card" id="about" 
+            {%block highlight_about%}{%endblock%} value="{%block about_text%}{%endblock%}"
+            >
+    
+            <input type="submit" name = "submit_results"  class="nav_card" id="school" {%block highlight_edu%}{%endblock%} 
+            value="{%block edu_text%}
+                {%endblock%}"
+            >
+            <input type="submit" name = "submit_results"   class="nav_card" id="work_experience" {%block highlight_we%}{%endblock%}
+                value="{%block we_text%}
+                {%endblock%}"
+            >
+            <input type="submit" name = "submit_results"  class="nav_card" id="side_projects" {%block highlight_sp%}{%endblock%}
+                value="{%block sp_text%}
+                {%endblock%}"
+            >
+            <div class="hobbies_interests">
+                <input type="submit" name = "submit_results"  class="nav_card" id="goals" {%block highlight_goals%}{%endblock%}
+                    value="{%block goals_text%}
+                    {%endblock%}"
+                >
+                
+                <input type="submit" name = "submit_results"  class="nav_card" id="hobbies" {%block highlight_hobbies%}{%endblock%}
+                    value="{%block hobbies_text%}
+                    {%endblock%}"
+                >
+
+            </div>
+                <input type="submit" name = "submit_results"  class="nav_card" id="interests" {%block highlight_interests%}{%endblock%}
+                    value="{%block interests_text%}
+                    {%endblock%}"
+                >
+            <input type="submit" name = "submit_results"  class="nav_card" id="image1"  {%block highlight_img%}{%endblock%}
+                value="{%block home_text%}
+                {%endblock%}"
+            >
+        </nav>
+    </form>
+</body>
+</html>

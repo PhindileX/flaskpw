@@ -1,0 +1,32 @@
+section{
+    display: grid;
+    align-items: center;
+}
+
+
+.phone_icon,.ln_icon,.pn_icon,.at_icon,.email_icon{
+    display: flex;
+    width: 1rem;
+    height: 1.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-left: 48%;
+}
+
+.phone_icon{
+    background-image: url("./icons/mobile-screen-solid.svg");
+
+}
+.ln_icon{
+    background-image: url("./icons/linkedin.svg");
+}
+.pn_icon{
+    background-image: url("./icons/user-regular.svg");
+}
+.at_icon{
+    background-image: url("./icons/at-solid.svg");
+}
+.email_icon{
+    background-image: url("./icons/envelope-regular.svg");
+}
